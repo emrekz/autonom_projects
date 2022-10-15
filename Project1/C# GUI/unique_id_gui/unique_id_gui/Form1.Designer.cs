@@ -36,9 +36,7 @@ namespace unique_id_gui
             this.ConnectToPort = new System.Windows.Forms.Button();
             this.ReceivedDataBox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.SendSerialButton = new System.Windows.Forms.Button();
-            this.SenderTextBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // AvailablePortsBox
@@ -74,7 +72,7 @@ namespace unique_id_gui
             this.ReceivedDataBox.Multiline = true;
             this.ReceivedDataBox.Name = "ReceivedDataBox";
             this.ReceivedDataBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.ReceivedDataBox.Size = new System.Drawing.Size(184, 159);
+            this.ReceivedDataBox.Size = new System.Drawing.Size(184, 112);
             this.ReceivedDataBox.TabIndex = 3;
             // 
             // label2
@@ -86,47 +84,29 @@ namespace unique_id_gui
             this.label2.TabIndex = 4;
             this.label2.Text = "Received Data";
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(9, 197);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(54, 13);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "Command";
-            // 
             // SendSerialButton
             // 
-            this.SendSerialButton.Location = new System.Drawing.Point(12, 239);
+            this.SendSerialButton.Location = new System.Drawing.Point(12, 114);
             this.SendSerialButton.Name = "SendSerialButton";
             this.SendSerialButton.Size = new System.Drawing.Size(121, 23);
             this.SendSerialButton.TabIndex = 7;
-            this.SendSerialButton.Text = "Send";
+            this.SendSerialButton.Text = "Get Unique ID";
             this.SendSerialButton.UseVisualStyleBackColor = true;
             this.SendSerialButton.Click += new System.EventHandler(this.SendSerialButton_Click);
-            // 
-            // SenderTextBox
-            // 
-            this.SenderTextBox.Location = new System.Drawing.Point(12, 213);
-            this.SenderTextBox.Name = "SenderTextBox";
-            this.SenderTextBox.Size = new System.Drawing.Size(121, 20);
-            this.SenderTextBox.TabIndex = 8;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(333, 271);
-            this.Controls.Add(this.SenderTextBox);
+            this.ClientSize = new System.Drawing.Size(333, 152);
             this.Controls.Add(this.SendSerialButton);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.ReceivedDataBox);
             this.Controls.Add(this.ConnectToPort);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.AvailablePortsBox);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Unique ID";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -141,9 +121,7 @@ namespace unique_id_gui
         private System.Windows.Forms.Button ConnectToPort;
         private System.Windows.Forms.TextBox ReceivedDataBox;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button SendSerialButton;
-        private System.Windows.Forms.TextBox SenderTextBox;
     }
 }
 

@@ -64,7 +64,7 @@ namespace unique_id_gui
 
         private void SendSerialButton_Click(object sender, EventArgs e)
         {
-            SerPort.WriteLine(SenderTextBox.Text.ToString());   //  Send command from gui to arduino via COM port.
+            SerPort.WriteLine("u");     //  Send command from gui to arduino via COM port.
         }
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
