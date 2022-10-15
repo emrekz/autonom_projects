@@ -1,0 +1,10 @@
+F:\DD\A\EEProject\Autonom_Projects\Project1\C# GUI\unique_id_gui\unique_id_gui\bin\Debug\unique_id_gui.exe.config
+F:\DD\A\EEProject\Autonom_Projects\Project1\C# GUI\unique_id_gui\unique_id_gui\bin\Debug\unique_id_gui.exe
+F:\DD\A\EEProject\Autonom_Projects\Project1\C# GUI\unique_id_gui\unique_id_gui\bin\Debug\unique_id_gui.pdb
+F:\DD\A\EEProject\Autonom_Projects\Project1\C# GUI\unique_id_gui\unique_id_gui\obj\Debug\unique_id_gui.csproj.AssemblyReference.cache
+F:\DD\A\EEProject\Autonom_Projects\Project1\C# GUI\unique_id_gui\unique_id_gui\obj\Debug\unique_id_gui.Form1.resources
+F:\DD\A\EEProject\Autonom_Projects\Project1\C# GUI\unique_id_gui\unique_id_gui\obj\Debug\unique_id_gui.Properties.Resources.resources
+F:\DD\A\EEProject\Autonom_Projects\Project1\C# GUI\unique_id_gui\unique_id_gui\obj\Debug\unique_id_gui.csproj.GenerateResource.cache
+F:\DD\A\EEProject\Autonom_Projects\Project1\C# GUI\unique_id_gui\unique_id_gui\obj\Debug\unique_id_gui.csproj.CoreCompileInputs.cache
+F:\DD\A\EEProject\Autonom_Projects\Project1\C# GUI\unique_id_gui\unique_id_gui\obj\Debug\unique_id_gui.exe
+F:\DD\A\EEProject\Autonom_Projects\Project1\C# GUI\unique_id_gui\unique_id_gui\obj\Debug\unique_id_gui.pdb
