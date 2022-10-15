@@ -1,0 +1,2 @@
+../Drivers/UART/uart.c:23:6:usart_config	8	static
+../Drivers/UART/uart.c:69:6:usart_send_char	16	static
